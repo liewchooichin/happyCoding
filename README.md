@@ -6,9 +6,12 @@ To practice Fork flow in GitHub.
 
 ## Configuration
 
-In Visual Studio Code, when the Static Web App prompt for **build**, leave it blank.
+Using Visual Studio Code to create Static Web App:
 
-In workflow file: 
+- Location of application code: /
+- API: "" blank
+- Location of build output: "/dist"
+
 
 ```
  output_location: "/dist" # Built app content directory - optional
