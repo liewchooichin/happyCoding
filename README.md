@@ -8,6 +8,12 @@ To practice Fork flow in GitHub.
 
 In Visual Studio Code, when the Static Web App prompt for **build**, leave it blank.
 
+In workflow file: 
+
+```
+ output_location: "/dist" # Built app content directory - optional
+```
+
 ## Notes
 
 The content cardcontent.json **must** be put in the **public** folder.
