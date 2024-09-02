@@ -4,6 +4,10 @@
 
 To practice Fork flow in GitHub.
 
+## Configuration
+
+In Visual Studio Code, when the Static Web App prompt for **build**, leave it blank.
+
 ## Notes
 
 The content cardcontent.json **must** be put in the **public** folder.
