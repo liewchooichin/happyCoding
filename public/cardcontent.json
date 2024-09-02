@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Chooi Chin",
+        "title": "Create with programming",
+        "content": "I like programming because I can create something with it.",
+        "siteName": "Microsoft Learn",
+        "siteUrl": "https://learn.microsoft.com/en-gb/"
+    },
+    {
+        "name": "Black Beatle",
+        "title": "It's cool",
+        "content": "Programming is cool.",
+        "siteName": "React Learn",
+        "siteUrl": "https://react.dev/learn"
+    },
+    {
+        "name": "Summer Cricket",
+        "title": "Bugs eater",
+        "content": "I like programming because I like to eat bugs",
+        "siteName": "Python Docs",
+        "siteUrl": "https://docs.python.org/3/"
+    },
+    {
+        "name": "Sonar Bat",
+        "title": "Fruit eater",
+        "content": "We are fruit eaters. We set our theme dark.",
+        "siteName": "MDN Web Docs",
+        "siteUrl": "https://developer.mozilla.org/en-US/"
+    }
+]
