@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
 import { HomeCard } from './HomeCard'
 import { About, Credits } from './About'
-
+import { MachineryParks } from './MachineryParks';
 
 export function NavigationBar() {
 
@@ -21,7 +21,11 @@ export function NavigationBar() {
           <Nav className="me-auto">           
 
             <Nav.Link as={Link} to="/">
-                Home Card
+              Machinery Parks
+            </Nav.Link>
+
+            <Nav.Link as={Link} to="/profiles">
+                Fun Profiles
             </Nav.Link>
 
             <Nav.Link as={Link} to="/about">
@@ -38,19 +42,23 @@ export function NavigationBar() {
 
     <div>
     <Routes>
-                <Route 
-                    path="/" 
-                    element={<HomeCard></HomeCard>}
-                ></Route>
-                <Route
-                    path="/about"
-                    element={<About></About>}
-                ></Route>
-                <Route
-                  path="/credits"
-                  element={<Credits></Credits>}
-                ></Route>
-            </Routes>
+      <Route
+        path="/"
+        element={<MachineryParks></MachineryParks>}
+      ></Route>
+      <Route 
+          path="/profiles" 
+          element={<HomeCard></HomeCard>}
+      ></Route>
+      <Route
+          path="/about"
+          element={<About></About>}
+      ></Route>
+      <Route
+        path="/credits"
+        element={<Credits></Credits>}
+      ></Route>
+  </Routes>
     </div>
     </Router>
     </Container>    
