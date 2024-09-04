@@ -6,13 +6,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
 import { HomeCard } from './HomeCard'
-import { About, Credits } from './About'
+import { About } from './About'
+import { Credits } from './Credits'
 import { MachineryParks } from './MachineryParks';
 
 export function NavigationBar() {
 
   return (
-    <Container>
+    <div>
     <Router>
     <Navbar expand="lg" className="bg-body-tertiary">
         <Navbar.Brand as={Link} to="/">Happy Coding</Navbar.Brand>
@@ -61,6 +62,6 @@ export function NavigationBar() {
   </Routes>
     </div>
     </Router>
-    </Container>    
+    </div>    
   );
 }

@@ -1,18 +1,33 @@
-
+.heading {
+    margin: 80px 0;
+}
 .section001 {
     background-image: url("../assets/machineryParks/image001.jpg");
     max-width: 100%;
     height: 340px;
-    align-content: end;
+    margin: 80px 0;
 }
 .section001Div {
     background-color: white;
     width: 240px;
     height: 220px;
+    margin: 100px 0;
 }
 .section002 {
     margin: 100px 0;
 }
-.sectin003 {
+.section003 {
+    background-color: black;
+    color: white;
+    margin: 100px 0;
+}
+.section004 {
+    margin: 100px 0;
+
+}
+.section005 {
+    margin: 100px 0;
+}
+.section006 {
     margin: 100px 0;
 }

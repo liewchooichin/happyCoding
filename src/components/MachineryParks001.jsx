@@ -25,7 +25,7 @@ export function Section001(){
 
         <div className={mpStyles.section001Div}> 
             <div className="d-flex flex-column fs-5 fw-bold">
-            <p className="text-center p-2">
+            <p className="text-center p-1">
             We have several business and industrial parks with available 
             space for your business.
             </p> 

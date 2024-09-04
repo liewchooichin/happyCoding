@@ -44,7 +44,6 @@ export function HomeCard(){
 
     return(
         <div>
-        <Container fluid>
         <Row className="grid gap-3">
         {
             content.map(item => 
@@ -70,7 +69,6 @@ export function HomeCard(){
         }
         
         </Row>
-        </Container>
         </div>
     )
 }
