@@ -35,7 +35,7 @@ export function MachineryParks(){
             <hr></hr>
             <p className="fs-6">
             Credits: Machinery Parks follows the example template from 
-            <a href="https://nicepage.com/website-templates/preview/machinery-parks-for-industrial-48832?device=desktop">Nice Page.
+            <a href="https://nicepage.com/website-templates/preview/machinery-parks-for-industrial-48832?device=desktop" target="_blank">Nice Page.
             </a>
             </p>
             </footer>

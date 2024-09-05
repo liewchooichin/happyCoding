@@ -16,7 +16,7 @@ export function NavigationBar() {
     <div>
     <Router>
     <Navbar expand="lg" className="bg-body-tertiary">
-        <Navbar.Brand as={Link} to="/">Happy Coding</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Happy Cod Coding</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">           
