@@ -2,7 +2,7 @@
 
 ## About Happy Coding
 
-To practice Fork flow in GitHub.
+This is a portfolio of React assigments done during the course Advanced Professional Certificate of Software Engineering from NTU.
 
 ## Configuration
 
@@ -12,10 +12,6 @@ Using Visual Studio Code to create Static Web App:
 - API: "" blank
 - Location of build output: "/dist"
 
-
-```
- output_location: "/dist" # Built app content directory - optional
-```
 
 ## Notes
 
