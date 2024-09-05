@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 /* Using React Bootstrap */
 //import './App.css'
 import { NavigationBar } from './components/NavigationBar'
-
+import Container from 'react-bootstrap/Container'
 
 /**
  * 
@@ -13,10 +13,11 @@ import { NavigationBar } from './components/NavigationBar'
 
 function App() {
   return (
-    <>
+    <Container fluid="md">
+
     <NavigationBar></NavigationBar>
 
-    </>
+    </Container>
   )
 }
 
