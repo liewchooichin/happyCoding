@@ -80,7 +80,7 @@ export function About(){
         <Card style={{ width:"50%" }}>
             <Card.Body>
             <Card.Title className="text-center fw-bold">
-                Cloud Skills
+                Cloud
             </Card.Title>
             <Card.Text>
                 <ListGroup>
