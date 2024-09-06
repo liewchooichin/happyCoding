@@ -1,0 +1,36 @@
+/** Google web fonts: Tangerine */
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+.tangerineRegular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tangerineBold {
+font-family: "Tangerine", cursive;
+font-weight: 700;
+font-style: normal;
+}
+
+.cinemaH1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+    box-shadow: 5px 5px 5px maroon;
+    border: 2px double darkgrey;
+    background-color: rgba(243, 155, 155, 0.7);
+}
+.cinemaBody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    background-color: rgba(243, 155, 155, 0.5); 
+    margin: 0;
+    padding: 0;
+}

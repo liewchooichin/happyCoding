@@ -3,12 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { LinkContainer } from 'react-router-bootstrap'
-import { HomeCard } from './HomeCard'
-import { About } from './About'
-import { Credits } from './Credits'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
+import { HomeCard } from './HomeCard';
+import { About } from './About';
+import { Credits } from './Credits';
 import { MachineryParks } from './MachineryParks';
+import { Cinema } from './Cinema';
+
 
 export function NavigationBar() {
 
@@ -25,8 +27,12 @@ export function NavigationBar() {
               Machinery Parks
             </Nav.Link>
 
+            <Nav.Link as={Link} to="/cinema">
+              Cinema billboards
+            </Nav.Link>
+
             <Nav.Link as={Link} to="/profiles">
-                Fun Profiles
+                Fun Coding Instructors
             </Nav.Link>
 
             <Nav.Link as={Link} to="/about">
@@ -46,6 +52,10 @@ export function NavigationBar() {
       <Route
         path="/"
         element={<MachineryParks></MachineryParks>}
+      ></Route>
+      <Route
+        path="/cinema"
+        element={<Cinema></Cinema>}
       ></Route>
       <Route 
           path="/profiles" 
