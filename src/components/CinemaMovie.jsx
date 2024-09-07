@@ -13,7 +13,7 @@ CinemaCarouselImage.propTypes = {
 function CinemaCarouselImage({filename, text}){
     return(
             <img src={image1} alt={text} 
-            className="img-fluid">
+            className={`${styles.carouselImage} rounded`}>
             </img>
     )
 }
@@ -27,7 +27,7 @@ export function CinemaMovie({title, year}){
         <div>
         <Row>
         <img src={image1} className="img-fluid"></img>
-        <h3 className="text-center align-self-end">{title}</h3> 
+        <h3 className={`${styles.tangerineBold} text-center align-self-end`}>{title}</h3> 
         <h3 className="fst-italic fs-5 text-center align-self-end">{year}</h3>
         </Row>
         </div>

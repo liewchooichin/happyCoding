@@ -5,7 +5,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { CinemaMovie } from "./CinemaMovie";
 import { genre, movies } from "./CinemaData";
-
+import { CinemaMovieCarousel } from './CinemaMovie';
 
 CinemaGenre.propTypes = {
     name: PropTypes.string,
@@ -27,11 +27,11 @@ export function CinemaGenre(
         <p className="fw-bold">All movies</p>
         {
           movies.map((item) => 
-            <CinemaMovie 
+            <CinemaMovieCarousel 
                 key={item.id} 
                 title={item.title} 
                 year={item.year}
-            ></CinemaMovie>
+            ></CinemaMovieCarousel>
         )}
         </Tab>
         <Tab eventKey="comedy" title="Comedy">

@@ -6,12 +6,13 @@ import { genre, movies } from "./CinemaData";
 
 export function Cinema(){
 
+    // {/*<div className={styles.cinemaH1}>*/}
 
     return(
         <Container fluid="md">
-            <div className={styles.cinemaH1}>
-            <h1 className="m-5 text-center">Cinema Merah Saga</h1>
-            </div>                
+            
+            <h1 className={`${styles.cinemaH1} m-5 text-center`}>Cinema Merah Saga</h1>
+                           
                 <CinemaGenre 
                     name={genre[0].name}
                     description={genre[0].description}
