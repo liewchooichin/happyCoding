@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './cinema.module.css';
+import styles from './Cinema.module.css';
 import Container from 'react-bootstrap/Container';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';

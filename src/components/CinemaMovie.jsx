@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './cinema.module.css';
+import styles from './Cinema.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import image1 from "../assets/cinema/grasshopper1_200.jpeg";

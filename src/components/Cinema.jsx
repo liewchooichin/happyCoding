@@ -1,4 +1,4 @@
-import styles from './cinema.module.css';
+import styles from './Cinema.module.css';
 import Container from 'react-bootstrap/Container';
 import { CinemaGenre } from "./CinemaGenre";
 import { genre, movies } from "./CinemaData";
